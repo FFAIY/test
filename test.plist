@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>items</key>
-	<array>
-		<dict>
-			<key>assets</key>
-			<array>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/FFAIY/test/blob/master/eos.ipa</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>needs-shine</key>
-					<true/>
-					<key>url</key>
-					<string>http://45qu.oss-cn-beijing.aliyuncs.com/87353a5ec18f6efee59ecc2079b6f3f9.png</string>
-				</dict>
-			</array>
-			<key>metadata</key>
-			<dict>
-				<key>bundle-identifier</key>
-				<string>com.zyark.grapefruitFinancial</string>
-				<key>bundle-version</key>
-				<string>1.0</string>
-				<key>kind</key>
-				<string>software</string>
-				<key>subtitle</key>
-				<string>App Subtitle</string>
-				<key>title</key>
-				<string>eos fin</string>
-			</dict>
-		</dict>
-	</array>
-</dict>
+    <dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>https://github.com/FFAIY/test/raw/master/eos.ipa</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>display-image</string>
+                        <key>needs-shine</key>
+                        <integer>0</integer>
+                        <key>url</key>
+                        <string>https://static.dibaqu.com/icon/37/45/374596d91d1c2224235a4c363c9b8751.png</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>full-size-image</string>
+                        <key>needs-shine</key>
+                        <true>
+                            <key>url</key>
+                            <string>https://static.dibaqu.com/icon/37/45/374596d91d1c2224235a4c363c9b8751.png</string>
+                        </true></dict>
+                </array>
+                <key>metadata</key>
+                <dict>
+                    <key>bundle-identifier</key>
+                    <string>com.zyark.grapefruitFinancial</string>
+                    <key>bundle-version</key>
+                    <string>1.0.0</string>
+                    <key>kind</key>
+                    <string>software</string>
+                    <key>title</key>
+                    <string>eos ten</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
 </plist>
